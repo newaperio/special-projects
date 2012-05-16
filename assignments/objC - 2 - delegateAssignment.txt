@@ -1,0 +1,3 @@
+Modify the Downloader class to actually download some data.
+
+Look at NSURLConnection, NSURLRequest, and NSURL. You don't have to actually do anything with the data. Have your Downloader class be the delegate for the NSURLConnection (i.e. don't use the convenience methods sendSynchronously on NSURLConnection - the point is to use a delegate).
