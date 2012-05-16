@@ -1,0 +1,3 @@
+Modify the fruit program (get it from github) so that Fruit has a name property.
+
+Then override the description method on Fruit so that you can simply call NSLog(@"%@", myFruit) and get the full text description in the console.
