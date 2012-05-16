@@ -19,6 +19,8 @@ int main (int argc, const char * argv[])
         NSLog(@"%@", apple);
         NSLog(@"A dragonfruit has %ld bites, %@, and is the color %@", dragonFruit.bites, (dragonFruit.seeds) ? @"has seeds" : @"doesn't have seeds", dragonFruit.color);
         NSLog(@"%@", dragonFruit);
+        [apple release];
+        [dragonFruit release];
     }
     return 0;
 }
