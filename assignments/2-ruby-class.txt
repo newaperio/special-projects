@@ -1,0 +1,13 @@
+Write two classes in Ruby. One is a super class called `Vegetable`; the other is a child class that inherits from `Vegetable`.
+
+Vegetable should have the following properties:
+1. Have attributes for color, shape, and bites.
+2. Initialize the vegetable to have 5 bites.
+3. A boolean method called `salad?` that returns whether it should be used in a salad based upon the `dressing` parameter.
+  - Return `true` if the dressing is Caesar.
+  - Return `true` if the dressing is Ranch and the color is green (if defined).
+  - Return `false` otherwise.
+3. Define a boolean method that returns true if the object is a vegetable.
+4. Define a bang method that removes a bite from the object.
+
+The child class should be any vegetable. The properties should be set for that particular vegetable.

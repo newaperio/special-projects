@@ -1,0 +1,18 @@
+Modify your vegetable class to use metaprogramming. In addition to `define_method`, you may also wish to use any of the following:
+
+- eval
+- instance_eval
+- class_eval (aka: module_eval)
+- class_variable_set
+- class_variable_get
+- class_variables (Try it out: instance_variables)
+- instance_variable_set (Try it out: instance_variable_get)
+- define_method
+- const_set
+- const_get (Try it out: constants)
+- Class.new (Try it out: Struct.new)
+- binding (Try it out: lambda)
+- send (Try it out: method)
+- remove_method
+- undef_method
+- method_missing
