@@ -1,0 +1,6 @@
+Write a blogging app in rails which has the following characteristics:
+1. Blog posts
+  - blog posts should have a title (string), author (string), and body (text)
+2. Comments
+  comments should have an author and body
+3. JSON respondable
