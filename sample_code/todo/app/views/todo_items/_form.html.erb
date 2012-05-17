@@ -1,0 +1,25 @@
+<%= form_for(@todo_item) do |f| %>
+  <% if @todo_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@todo_item.errors.count, "error") %> prohibited this todo_item from being saved:</h2>
+
+      <ul>
+      <% @todo_item.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :body %><br />
+    <%= f.text_area :body %>
+  </div>
+  <div class="field">
+    <%= f.label :todo_list %><br />
+    <%= f.select :todo_list_id, TodoList.all.collect {|t| t.id}, { include_blank: true } %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

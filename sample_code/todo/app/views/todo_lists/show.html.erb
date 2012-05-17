@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @todo_list.name %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @todo_list.author %>
+</p>
+
+<p>
+  <b>Todo Items:</b>
+  <ul>
+  <% for t in @todo_list.todo_items %>
+    <li><%= t.body %></li>
+  <% end %>
+  </ul>
+</p>
+
+
+<%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
+<%= link_to 'Back', todo_lists_path %>

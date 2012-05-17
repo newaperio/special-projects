@@ -1,0 +1,23 @@
+<h1>Listing todo_items</h1>
+
+<table>
+  <tr>
+    <th>Body</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @todo_items.each do |todo_item| %>
+  <tr>
+    <td><%= todo_item.body %></td>
+    <td><%= link_to 'Show', todo_item %></td>
+    <td><%= link_to 'Edit', edit_todo_item_path(todo_item) %></td>
+    <td><%= link_to 'Destroy', todo_item, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Todo item', new_todo_item_path %>
