@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "200317C315643E890015F148"
+               BlueprintIdentifier = "200318C1156558F70015F148"
                BuildableName = "SimulatedDownloader.app"
                BlueprintName = "SimulatedDownloader"
                ReferencedContainer = "container:SimulatedDownloader.xcodeproj">
@@ -31,7 +31,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200317C315643E890015F148"
+            BlueprintIdentifier = "200318C1156558F70015F148"
             BuildableName = "SimulatedDownloader.app"
             BlueprintName = "SimulatedDownloader"
             ReferencedContainer = "container:SimulatedDownloader.xcodeproj">
@@ -49,7 +49,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200317C315643E890015F148"
+            BlueprintIdentifier = "200318C1156558F70015F148"
             BuildableName = "SimulatedDownloader.app"
             BlueprintName = "SimulatedDownloader"
             ReferencedContainer = "container:SimulatedDownloader.xcodeproj">
@@ -67,7 +67,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "200317C315643E890015F148"
+            BlueprintIdentifier = "200318C1156558F70015F148"
             BuildableName = "SimulatedDownloader.app"
             BlueprintName = "SimulatedDownloader"
             ReferencedContainer = "container:SimulatedDownloader.xcodeproj">

@@ -7,99 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200317C915643E8A0015F148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200317C815643E890015F148 /* UIKit.framework */; };
-		200317CB15643E8A0015F148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200317CA15643E8A0015F148 /* Foundation.framework */; };
-		200317CD15643E8A0015F148 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200317CC15643E8A0015F148 /* CoreGraphics.framework */; };
-		200317CF15643E8A0015F148 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200317CE15643E8A0015F148 /* CoreData.framework */; };
-		200317D515643E8A0015F148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 200317D315643E8A0015F148 /* InfoPlist.strings */; };
-		200317D715643E8A0015F148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200317D615643E8A0015F148 /* main.m */; };
-		200317DB15643E8A0015F148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200317DA15643E8A0015F148 /* AppDelegate.m */; };
-		200317DE15643E8A0015F148 /* SimulatedDownloader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 200317DC15643E8A0015F148 /* SimulatedDownloader.xcdatamodeld */; };
-		200317E7156440180015F148 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 200317E6156440180015F148 /* Downloader.m */; };
+		200318C7156558F70015F148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200318C6156558F70015F148 /* UIKit.framework */; };
+		200318C9156558F70015F148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200318C8156558F70015F148 /* Foundation.framework */; };
+		200318CB156558F70015F148 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200318CA156558F70015F148 /* CoreGraphics.framework */; };
+		200318D1156558F70015F148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 200318CF156558F70015F148 /* InfoPlist.strings */; };
+		200318D3156558F70015F148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200318D2156558F70015F148 /* main.m */; };
+		200318D7156558F70015F148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200318D6156558F70015F148 /* AppDelegate.m */; };
+		200318DF1565590F0015F148 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 200318DE1565590F0015F148 /* Downloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		200317C415643E890015F148 /* SimulatedDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatedDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		200317C815643E890015F148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		200317CA15643E8A0015F148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		200317CC15643E8A0015F148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		200317CE15643E8A0015F148 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		200317D215643E8A0015F148 /* SimulatedDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatedDownloader-Info.plist"; sourceTree = "<group>"; };
-		200317D415643E8A0015F148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		200317D615643E8A0015F148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		200317D815643E8A0015F148 /* SimulatedDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimulatedDownloader-Prefix.pch"; sourceTree = "<group>"; };
-		200317D915643E8A0015F148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		200317DA15643E8A0015F148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		200317DD15643E8A0015F148 /* SimulatedDownloader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimulatedDownloader.xcdatamodel; sourceTree = "<group>"; };
-		200317E415643EC90015F148 /* DownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderDelegate.h; sourceTree = "<group>"; };
-		200317E5156440180015F148 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
-		200317E6156440180015F148 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Downloader.m; path = ../../Downloader.m; sourceTree = "<group>"; };
+		200318C2156558F70015F148 /* SimulatedDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatedDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200318C6156558F70015F148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		200318C8156558F70015F148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		200318CA156558F70015F148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		200318CE156558F70015F148 /* SimulatedDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatedDownloader-Info.plist"; sourceTree = "<group>"; };
+		200318D0156558F70015F148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		200318D2156558F70015F148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200318D4156558F70015F148 /* SimulatedDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimulatedDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		200318D5156558F70015F148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		200318D6156558F70015F148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		200318DD1565590F0015F148 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		200318DE1565590F0015F148 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		200318E0156559290015F148 /* DownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		200317C115643E890015F148 /* Frameworks */ = {
+		200318BF156558F70015F148 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200317C915643E8A0015F148 /* UIKit.framework in Frameworks */,
-				200317CB15643E8A0015F148 /* Foundation.framework in Frameworks */,
-				200317CD15643E8A0015F148 /* CoreGraphics.framework in Frameworks */,
-				200317CF15643E8A0015F148 /* CoreData.framework in Frameworks */,
+				200318C7156558F70015F148 /* UIKit.framework in Frameworks */,
+				200318C9156558F70015F148 /* Foundation.framework in Frameworks */,
+				200318CB156558F70015F148 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		200317B915643E890015F148 = {
+		200318B7156558F70015F148 = {
 			isa = PBXGroup;
 			children = (
-				200317D015643E8A0015F148 /* SimulatedDownloader */,
-				200317C715643E890015F148 /* Frameworks */,
-				200317C515643E890015F148 /* Products */,
+				200318CC156558F70015F148 /* SimulatedDownloader */,
+				200318C5156558F70015F148 /* Frameworks */,
+				200318C3156558F70015F148 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		200317C515643E890015F148 /* Products */ = {
+		200318C3156558F70015F148 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				200317C415643E890015F148 /* SimulatedDownloader.app */,
+				200318C2156558F70015F148 /* SimulatedDownloader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		200317C715643E890015F148 /* Frameworks */ = {
+		200318C5156558F70015F148 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				200317C815643E890015F148 /* UIKit.framework */,
-				200317CA15643E8A0015F148 /* Foundation.framework */,
-				200317CC15643E8A0015F148 /* CoreGraphics.framework */,
-				200317CE15643E8A0015F148 /* CoreData.framework */,
+				200318C6156558F70015F148 /* UIKit.framework */,
+				200318C8156558F70015F148 /* Foundation.framework */,
+				200318CA156558F70015F148 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		200317D015643E8A0015F148 /* SimulatedDownloader */ = {
+		200318CC156558F70015F148 /* SimulatedDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				200317D915643E8A0015F148 /* AppDelegate.h */,
-				200317DA15643E8A0015F148 /* AppDelegate.m */,
-				200317E5156440180015F148 /* Downloader.h */,
-				200317E6156440180015F148 /* Downloader.m */,
-				200317DC15643E8A0015F148 /* SimulatedDownloader.xcdatamodeld */,
-				200317D115643E8A0015F148 /* Supporting Files */,
-				200317E415643EC90015F148 /* DownloaderDelegate.h */,
+				200318D5156558F70015F148 /* AppDelegate.h */,
+				200318D6156558F70015F148 /* AppDelegate.m */,
+				200318DD1565590F0015F148 /* Downloader.h */,
+				200318DE1565590F0015F148 /* Downloader.m */,
+				200318E0156559290015F148 /* DownloaderDelegate.h */,
+				200318CD156558F70015F148 /* Supporting Files */,
 			);
 			path = SimulatedDownloader;
 			sourceTree = "<group>";
 		};
-		200317D115643E8A0015F148 /* Supporting Files */ = {
+		200318CD156558F70015F148 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				200317D215643E8A0015F148 /* SimulatedDownloader-Info.plist */,
-				200317D315643E8A0015F148 /* InfoPlist.strings */,
-				200317D615643E8A0015F148 /* main.m */,
-				200317D815643E8A0015F148 /* SimulatedDownloader-Prefix.pch */,
+				200318CE156558F70015F148 /* SimulatedDownloader-Info.plist */,
+				200318CF156558F70015F148 /* InfoPlist.strings */,
+				200318D2156558F70015F148 /* main.m */,
+				200318D4156558F70015F148 /* SimulatedDownloader-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -107,13 +100,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		200317C315643E890015F148 /* SimulatedDownloader */ = {
+		200318C1156558F70015F148 /* SimulatedDownloader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 200317E115643E8A0015F148 /* Build configuration list for PBXNativeTarget "SimulatedDownloader" */;
+			buildConfigurationList = 200318DA156558F70015F148 /* Build configuration list for PBXNativeTarget "SimulatedDownloader" */;
 			buildPhases = (
-				200317C015643E890015F148 /* Sources */,
-				200317C115643E890015F148 /* Frameworks */,
-				200317C215643E890015F148 /* Resources */,
+				200318BE156558F70015F148 /* Sources */,
+				200318BF156558F70015F148 /* Frameworks */,
+				200318C0156558F70015F148 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -121,65 +114,64 @@
 			);
 			name = SimulatedDownloader;
 			productName = SimulatedDownloader;
-			productReference = 200317C415643E890015F148 /* SimulatedDownloader.app */;
+			productReference = 200318C2156558F70015F148 /* SimulatedDownloader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		200317BB15643E890015F148 /* Project object */ = {
+		200318B9156558F70015F148 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = NewAperio;
 			};
-			buildConfigurationList = 200317BE15643E890015F148 /* Build configuration list for PBXProject "SimulatedDownloader" */;
+			buildConfigurationList = 200318BC156558F70015F148 /* Build configuration list for PBXProject "SimulatedDownloader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 200317B915643E890015F148;
-			productRefGroup = 200317C515643E890015F148 /* Products */;
+			mainGroup = 200318B7156558F70015F148;
+			productRefGroup = 200318C3156558F70015F148 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				200317C315643E890015F148 /* SimulatedDownloader */,
+				200318C1156558F70015F148 /* SimulatedDownloader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		200317C215643E890015F148 /* Resources */ = {
+		200318C0156558F70015F148 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200317D515643E8A0015F148 /* InfoPlist.strings in Resources */,
+				200318D1156558F70015F148 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		200317C015643E890015F148 /* Sources */ = {
+		200318BE156558F70015F148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200317D715643E8A0015F148 /* main.m in Sources */,
-				200317DB15643E8A0015F148 /* AppDelegate.m in Sources */,
-				200317DE15643E8A0015F148 /* SimulatedDownloader.xcdatamodeld in Sources */,
-				200317E7156440180015F148 /* Downloader.m in Sources */,
+				200318D3156558F70015F148 /* main.m in Sources */,
+				200318D7156558F70015F148 /* AppDelegate.m in Sources */,
+				200318DF1565590F0015F148 /* Downloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		200317D315643E8A0015F148 /* InfoPlist.strings */ = {
+		200318CF156558F70015F148 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				200317D415643E8A0015F148 /* en */,
+				200318D0156558F70015F148 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -187,12 +179,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		200317DF15643E8A0015F148 /* Debug */ = {
+		200318D8156558F70015F148 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -213,12 +204,11 @@
 			};
 			name = Debug;
 		};
-		200317E015643E8A0015F148 /* Release */ = {
+		200318D9156558F70015F148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -234,7 +224,7 @@
 			};
 			name = Release;
 		};
-		200317E215643E8A0015F148 /* Debug */ = {
+		200318DB156558F70015F148 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -245,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		200317E315643E8A0015F148 /* Release */ = {
+		200318DC156558F70015F148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -259,38 +249,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		200317BE15643E890015F148 /* Build configuration list for PBXProject "SimulatedDownloader" */ = {
+		200318BC156558F70015F148 /* Build configuration list for PBXProject "SimulatedDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				200317DF15643E8A0015F148 /* Debug */,
-				200317E015643E8A0015F148 /* Release */,
+				200318D8156558F70015F148 /* Debug */,
+				200318D9156558F70015F148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		200317E115643E8A0015F148 /* Build configuration list for PBXNativeTarget "SimulatedDownloader" */ = {
+		200318DA156558F70015F148 /* Build configuration list for PBXNativeTarget "SimulatedDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				200317E215643E8A0015F148 /* Debug */,
-				200317E315643E8A0015F148 /* Release */,
+				200318DB156558F70015F148 /* Debug */,
+				200318DC156558F70015F148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		200317DC15643E8A0015F148 /* SimulatedDownloader.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				200317DD15643E8A0015F148 /* SimulatedDownloader.xcdatamodel */,
-			);
-			currentVersion = 200317DD15643E8A0015F148 /* SimulatedDownloader.xcdatamodel */;
-			path = SimulatedDownloader.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 200317BB15643E890015F148 /* Project object */;
+	rootObject = 200318B9156558F70015F148 /* Project object */;
 }
