@@ -52,6 +52,7 @@
             [_delegate editTodoAtIndex:_index withTodo:_textField.text];
         }
     }
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 #pragma mark - View lifecycle
