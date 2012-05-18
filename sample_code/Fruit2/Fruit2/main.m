@@ -13,10 +13,11 @@ int main (int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        Fruit *apple = [[Fruit alloc] initWithBites:5 andColor:@"red" andShape:@"round"];
-        Fruit *dragonFruit = [[Fruit alloc] initWithBites:2 andColor:@"Dragon" andShape:@"Chaotic"];
-        NSLog(@"Apple has %ld bites and is %@ color and is %@", apple.bites, apple.color, apple.shape);
-        NSLog(@"Dragonfruit has %ld bites and is %@ color and is %@", dragonFruit.bites, dragonFruit.color, dragonFruit.shape);
+        Fruit *apple = [[Fruit alloc] initWithName:@"Apple" andBites:5 andColor:@"red" andShape:@"round"];
+        Fruit *dragonFruit = [[Fruit alloc] initWithName:@"Dragonfruit" andBites:2 andColor:@"Dragon" andShape:@"Chaotic"];
+        
+        NSLog(@"%@", apple);
+        NSLog(@"%@", dragonFruit);
         [apple release];
         [dragonFruit release];
     }
