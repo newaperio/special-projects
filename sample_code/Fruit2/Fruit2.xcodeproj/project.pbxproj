@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200319B7156699200015F148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200319B6156699200015F148 /* Foundation.framework */; };
+		200319BA156699200015F148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200319B9156699200015F148 /* main.m */; };
+		200319BE156699200015F148 /* Fruit2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 200319BD156699200015F148 /* Fruit2.1 */; };
+		200319C6156699C30015F148 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 200319C5156699C30015F148 /* Fruit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		200319B0156699200015F148 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				200319BE156699200015F148 /* Fruit2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		200319B2156699200015F148 /* Fruit2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fruit2; sourceTree = BUILT_PRODUCTS_DIR; };
+		200319B6156699200015F148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		200319B9156699200015F148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200319BC156699200015F148 /* Fruit2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fruit2-Prefix.pch"; sourceTree = "<group>"; };
+		200319BD156699200015F148 /* Fruit2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fruit2.1; sourceTree = "<group>"; };
+		200319C4156699C30015F148 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		200319C5156699C30015F148 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200319AF156699200015F148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200319B7156699200015F148 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200319A7156699200015F148 = {
+			isa = PBXGroup;
+			children = (
+				200319B8156699200015F148 /* Fruit2 */,
+				200319B5156699200015F148 /* Frameworks */,
+				200319B3156699200015F148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200319B3156699200015F148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200319B2156699200015F148 /* Fruit2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200319B5156699200015F148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200319B6156699200015F148 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		200319B8156699200015F148 /* Fruit2 */ = {
+			isa = PBXGroup;
+			children = (
+				200319B9156699200015F148 /* main.m */,
+				200319C4156699C30015F148 /* Fruit.h */,
+				200319C5156699C30015F148 /* Fruit.m */,
+				200319BD156699200015F148 /* Fruit2.1 */,
+				200319BB156699200015F148 /* Supporting Files */,
+			);
+			path = Fruit2;
+			sourceTree = "<group>";
+		};
+		200319BB156699200015F148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200319BC156699200015F148 /* Fruit2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200319B1156699200015F148 /* Fruit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200319C1156699200015F148 /* Build configuration list for PBXNativeTarget "Fruit2" */;
+			buildPhases = (
+				200319AE156699200015F148 /* Sources */,
+				200319AF156699200015F148 /* Frameworks */,
+				200319B0156699200015F148 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fruit2;
+			productName = Fruit2;
+			productReference = 200319B2156699200015F148 /* Fruit2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200319A9156699200015F148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NewAperio;
+			};
+			buildConfigurationList = 200319AC156699200015F148 /* Build configuration list for PBXProject "Fruit2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 200319A7156699200015F148;
+			productRefGroup = 200319B3156699200015F148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200319B1156699200015F148 /* Fruit2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200319AE156699200015F148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200319BA156699200015F148 /* main.m in Sources */,
+				200319C6156699C30015F148 /* Fruit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		200319BF156699200015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		200319C0156699200015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		200319C2156699200015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fruit2/Fruit2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		200319C3156699200015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fruit2/Fruit2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200319AC156699200015F148 /* Build configuration list for PBXProject "Fruit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200319BF156699200015F148 /* Debug */,
+				200319C0156699200015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200319C1156699200015F148 /* Build configuration list for PBXNativeTarget "Fruit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200319C2156699200015F148 /* Debug */,
+				200319C3156699200015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200319A9156699200015F148 /* Project object */;
+}
