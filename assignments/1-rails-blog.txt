@@ -4,3 +4,5 @@ Write a blogging app in rails which has the following characteristics:
 2. Comments
   comments should have an author and body
 3. JSON respondable
+
+Test pull request
