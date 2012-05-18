@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2003195315660F8D0015F148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003195215660F8D0015F148 /* UIKit.framework */; };
+		2003195515660F8D0015F148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003195415660F8D0015F148 /* Foundation.framework */; };
+		2003195715660F8D0015F148 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003195615660F8D0015F148 /* CoreGraphics.framework */; };
+		2003195915660F8D0015F148 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003195815660F8D0015F148 /* CoreData.framework */; };
+		2003195F15660F8D0015F148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2003195D15660F8D0015F148 /* InfoPlist.strings */; };
+		2003196115660F8D0015F148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003196015660F8D0015F148 /* main.m */; };
+		2003196515660F8D0015F148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003196415660F8D0015F148 /* AppDelegate.m */; };
+		2003196815660F8D0015F148 /* TodoCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2003196615660F8D0015F148 /* TodoCoreData.xcdatamodeld */; };
+		20031974156611480015F148 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 20031973156611480015F148 /* Item.m */; };
+		20031995156614130015F148 /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20031994156614130015F148 /* Storyboard_iPhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2003194E15660F8D0015F148 /* TodoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2003195215660F8D0015F148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2003195415660F8D0015F148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2003195615660F8D0015F148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2003195815660F8D0015F148 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2003195C15660F8D0015F148 /* TodoCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TodoCoreData-Info.plist"; sourceTree = "<group>"; };
+		2003195E15660F8D0015F148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2003196015660F8D0015F148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2003196215660F8D0015F148 /* TodoCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodoCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		2003196315660F8D0015F148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2003196415660F8D0015F148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2003196715660F8D0015F148 /* TodoCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoCoreData.xcdatamodel; sourceTree = "<group>"; };
+		20031972156611480015F148 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		20031973156611480015F148 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		20031994156614130015F148 /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2003194B15660F8C0015F148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2003195315660F8D0015F148 /* UIKit.framework in Frameworks */,
+				2003195515660F8D0015F148 /* Foundation.framework in Frameworks */,
+				2003195715660F8D0015F148 /* CoreGraphics.framework in Frameworks */,
+				2003195915660F8D0015F148 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2003194315660F8C0015F148 = {
+			isa = PBXGroup;
+			children = (
+				2003195A15660F8D0015F148 /* TodoCoreData */,
+				2003195115660F8D0015F148 /* Frameworks */,
+				2003194F15660F8D0015F148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2003194F15660F8D0015F148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2003194E15660F8D0015F148 /* TodoCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2003195115660F8D0015F148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2003195215660F8D0015F148 /* UIKit.framework */,
+				2003195415660F8D0015F148 /* Foundation.framework */,
+				2003195615660F8D0015F148 /* CoreGraphics.framework */,
+				2003195815660F8D0015F148 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2003195A15660F8D0015F148 /* TodoCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2003196315660F8D0015F148 /* AppDelegate.h */,
+				2003196415660F8D0015F148 /* AppDelegate.m */,
+				2003196615660F8D0015F148 /* TodoCoreData.xcdatamodeld */,
+				20031972156611480015F148 /* Item.h */,
+				20031973156611480015F148 /* Item.m */,
+				2003195B15660F8D0015F148 /* Supporting Files */,
+				20031994156614130015F148 /* Storyboard_iPhone.storyboard */,
+			);
+			path = TodoCoreData;
+			sourceTree = "<group>";
+		};
+		2003195B15660F8D0015F148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2003195C15660F8D0015F148 /* TodoCoreData-Info.plist */,
+				2003195D15660F8D0015F148 /* InfoPlist.strings */,
+				2003196015660F8D0015F148 /* main.m */,
+				2003196215660F8D0015F148 /* TodoCoreData-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2003194D15660F8C0015F148 /* TodoCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2003196B15660F8D0015F148 /* Build configuration list for PBXNativeTarget "TodoCoreData" */;
+			buildPhases = (
+				2003194A15660F8C0015F148 /* Sources */,
+				2003194B15660F8C0015F148 /* Frameworks */,
+				2003194C15660F8C0015F148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoCoreData;
+			productName = TodoCoreData;
+			productReference = 2003194E15660F8D0015F148 /* TodoCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2003194515660F8C0015F148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NewAperio;
+			};
+			buildConfigurationList = 2003194815660F8C0015F148 /* Build configuration list for PBXProject "TodoCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2003194315660F8C0015F148;
+			productRefGroup = 2003194F15660F8D0015F148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2003194D15660F8C0015F148 /* TodoCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2003194C15660F8C0015F148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2003195F15660F8D0015F148 /* InfoPlist.strings in Resources */,
+				20031995156614130015F148 /* Storyboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2003194A15660F8C0015F148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2003196115660F8D0015F148 /* main.m in Sources */,
+				2003196515660F8D0015F148 /* AppDelegate.m in Sources */,
+				2003196815660F8D0015F148 /* TodoCoreData.xcdatamodeld in Sources */,
+				20031974156611480015F148 /* Item.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2003195D15660F8D0015F148 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2003195E15660F8D0015F148 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2003196915660F8D0015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2003196A15660F8D0015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2003196C15660F8D0015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TodoCoreData/TodoCoreData-Prefix.pch";
+				INFOPLIST_FILE = "TodoCoreData/TodoCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2003196D15660F8D0015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TodoCoreData/TodoCoreData-Prefix.pch";
+				INFOPLIST_FILE = "TodoCoreData/TodoCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2003194815660F8C0015F148 /* Build configuration list for PBXProject "TodoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2003196915660F8D0015F148 /* Debug */,
+				2003196A15660F8D0015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2003196B15660F8D0015F148 /* Build configuration list for PBXNativeTarget "TodoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2003196C15660F8D0015F148 /* Debug */,
+				2003196D15660F8D0015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2003196615660F8D0015F148 /* TodoCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2003196715660F8D0015F148 /* TodoCoreData.xcdatamodel */,
+			);
+			currentVersion = 2003196715660F8D0015F148 /* TodoCoreData.xcdatamodel */;
+			path = TodoCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2003194515660F8C0015F148 /* Project object */;
+}

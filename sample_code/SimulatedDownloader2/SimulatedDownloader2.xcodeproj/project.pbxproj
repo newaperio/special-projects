@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200319DF1566AA130015F148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200319DE1566AA130015F148 /* UIKit.framework */; };
+		200319E11566AA130015F148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200319E01566AA130015F148 /* Foundation.framework */; };
+		200319E31566AA130015F148 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200319E21566AA130015F148 /* CoreGraphics.framework */; };
+		200319E91566AA130015F148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 200319E71566AA130015F148 /* InfoPlist.strings */; };
+		200319EB1566AA130015F148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200319EA1566AA130015F148 /* main.m */; };
+		200319EF1566AA130015F148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200319EE1566AA130015F148 /* AppDelegate.m */; };
+		200319F71566AAE60015F148 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 200319F61566AAE60015F148 /* Downloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200319DA1566AA130015F148 /* SimulatedDownloader2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatedDownloader2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200319DE1566AA130015F148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		200319E01566AA130015F148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		200319E21566AA130015F148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		200319E61566AA130015F148 /* SimulatedDownloader2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimulatedDownloader2-Info.plist"; sourceTree = "<group>"; };
+		200319E81566AA130015F148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		200319EA1566AA130015F148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200319EC1566AA130015F148 /* SimulatedDownloader2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimulatedDownloader2-Prefix.pch"; sourceTree = "<group>"; };
+		200319ED1566AA130015F148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		200319EE1566AA130015F148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		200319F51566AAE60015F148 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		200319F61566AAE60015F148 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		200319F81566AB420015F148 /* DownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloaderDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200319D71566AA130015F148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200319DF1566AA130015F148 /* UIKit.framework in Frameworks */,
+				200319E11566AA130015F148 /* Foundation.framework in Frameworks */,
+				200319E31566AA130015F148 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200319CF1566AA130015F148 = {
+			isa = PBXGroup;
+			children = (
+				200319E41566AA130015F148 /* SimulatedDownloader2 */,
+				200319DD1566AA130015F148 /* Frameworks */,
+				200319DB1566AA130015F148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200319DB1566AA130015F148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200319DA1566AA130015F148 /* SimulatedDownloader2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200319DD1566AA130015F148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200319DE1566AA130015F148 /* UIKit.framework */,
+				200319E01566AA130015F148 /* Foundation.framework */,
+				200319E21566AA130015F148 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		200319E41566AA130015F148 /* SimulatedDownloader2 */ = {
+			isa = PBXGroup;
+			children = (
+				200319ED1566AA130015F148 /* AppDelegate.h */,
+				200319EE1566AA130015F148 /* AppDelegate.m */,
+				200319F51566AAE60015F148 /* Downloader.h */,
+				200319F61566AAE60015F148 /* Downloader.m */,
+				200319F81566AB420015F148 /* DownloaderDelegate.h */,
+				200319E51566AA130015F148 /* Supporting Files */,
+			);
+			path = SimulatedDownloader2;
+			sourceTree = "<group>";
+		};
+		200319E51566AA130015F148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200319E61566AA130015F148 /* SimulatedDownloader2-Info.plist */,
+				200319E71566AA130015F148 /* InfoPlist.strings */,
+				200319EA1566AA130015F148 /* main.m */,
+				200319EC1566AA130015F148 /* SimulatedDownloader2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200319D91566AA130015F148 /* SimulatedDownloader2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200319F21566AA130015F148 /* Build configuration list for PBXNativeTarget "SimulatedDownloader2" */;
+			buildPhases = (
+				200319D61566AA130015F148 /* Sources */,
+				200319D71566AA130015F148 /* Frameworks */,
+				200319D81566AA130015F148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulatedDownloader2;
+			productName = SimulatedDownloader2;
+			productReference = 200319DA1566AA130015F148 /* SimulatedDownloader2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200319D11566AA130015F148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NewAperio;
+			};
+			buildConfigurationList = 200319D41566AA130015F148 /* Build configuration list for PBXProject "SimulatedDownloader2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 200319CF1566AA130015F148;
+			productRefGroup = 200319DB1566AA130015F148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200319D91566AA130015F148 /* SimulatedDownloader2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200319D81566AA130015F148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200319E91566AA130015F148 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200319D61566AA130015F148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200319EB1566AA130015F148 /* main.m in Sources */,
+				200319EF1566AA130015F148 /* AppDelegate.m in Sources */,
+				200319F71566AAE60015F148 /* Downloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		200319E71566AA130015F148 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200319E81566AA130015F148 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200319F01566AA130015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		200319F11566AA130015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200319F31566AA130015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatedDownloader2/SimulatedDownloader2-Prefix.pch";
+				INFOPLIST_FILE = "SimulatedDownloader2/SimulatedDownloader2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		200319F41566AA130015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimulatedDownloader2/SimulatedDownloader2-Prefix.pch";
+				INFOPLIST_FILE = "SimulatedDownloader2/SimulatedDownloader2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200319D41566AA130015F148 /* Build configuration list for PBXProject "SimulatedDownloader2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200319F01566AA130015F148 /* Debug */,
+				200319F11566AA130015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200319F21566AA130015F148 /* Build configuration list for PBXNativeTarget "SimulatedDownloader2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200319F31566AA130015F148 /* Debug */,
+				200319F41566AA130015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200319D11566AA130015F148 /* Project object */;
+}
