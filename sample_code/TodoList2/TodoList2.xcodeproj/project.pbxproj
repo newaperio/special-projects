@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20031A2A1566CB790015F148 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20031A291566CB790015F148 /* UIKit.framework */; };
+		20031A2C1566CB790015F148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20031A2B1566CB790015F148 /* Foundation.framework */; };
+		20031A2E1566CB790015F148 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20031A2D1566CB790015F148 /* CoreGraphics.framework */; };
+		20031A341566CB790015F148 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20031A321566CB790015F148 /* InfoPlist.strings */; };
+		20031A361566CB790015F148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20031A351566CB790015F148 /* main.m */; };
+		20031A3A1566CB790015F148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20031A391566CB790015F148 /* AppDelegate.m */; };
+		20031A411566CBB80015F148 /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20031A401566CBB80015F148 /* Storyboard_iPhone.storyboard */; };
+		20031A441566CEA40015F148 /* TodoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20031A431566CEA40015F148 /* TodoListTableViewController.m */; };
+		20031A471566D0CB0015F148 /* AddEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20031A461566D0CB0015F148 /* AddEditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20031A251566CB790015F148 /* TodoList2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20031A291566CB790015F148 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20031A2B1566CB790015F148 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20031A2D1566CB790015F148 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20031A311566CB790015F148 /* TodoList2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TodoList2-Info.plist"; sourceTree = "<group>"; };
+		20031A331566CB790015F148 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20031A351566CB790015F148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20031A371566CB790015F148 /* TodoList2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodoList2-Prefix.pch"; sourceTree = "<group>"; };
+		20031A381566CB790015F148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20031A391566CB790015F148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20031A401566CBB80015F148 /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		20031A421566CEA40015F148 /* TodoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListTableViewController.h; sourceTree = "<group>"; };
+		20031A431566CEA40015F148 /* TodoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListTableViewController.m; sourceTree = "<group>"; };
+		20031A451566D0CB0015F148 /* AddEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditViewController.h; sourceTree = "<group>"; };
+		20031A461566D0CB0015F148 /* AddEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditViewController.m; sourceTree = "<group>"; };
+		20031A481566D3D70015F148 /* TodoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20031A221566CB790015F148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20031A2A1566CB790015F148 /* UIKit.framework in Frameworks */,
+				20031A2C1566CB790015F148 /* Foundation.framework in Frameworks */,
+				20031A2E1566CB790015F148 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20031A1A1566CB790015F148 = {
+			isa = PBXGroup;
+			children = (
+				20031A2F1566CB790015F148 /* TodoList2 */,
+				20031A281566CB790015F148 /* Frameworks */,
+				20031A261566CB790015F148 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20031A261566CB790015F148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20031A251566CB790015F148 /* TodoList2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20031A281566CB790015F148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20031A291566CB790015F148 /* UIKit.framework */,
+				20031A2B1566CB790015F148 /* Foundation.framework */,
+				20031A2D1566CB790015F148 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20031A2F1566CB790015F148 /* TodoList2 */ = {
+			isa = PBXGroup;
+			children = (
+				20031A381566CB790015F148 /* AppDelegate.h */,
+				20031A391566CB790015F148 /* AppDelegate.m */,
+				20031A401566CBB80015F148 /* Storyboard_iPhone.storyboard */,
+				20031A421566CEA40015F148 /* TodoListTableViewController.h */,
+				20031A431566CEA40015F148 /* TodoListTableViewController.m */,
+				20031A451566D0CB0015F148 /* AddEditViewController.h */,
+				20031A461566D0CB0015F148 /* AddEditViewController.m */,
+				20031A481566D3D70015F148 /* TodoDelegate.h */,
+				20031A301566CB790015F148 /* Supporting Files */,
+			);
+			path = TodoList2;
+			sourceTree = "<group>";
+		};
+		20031A301566CB790015F148 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20031A311566CB790015F148 /* TodoList2-Info.plist */,
+				20031A321566CB790015F148 /* InfoPlist.strings */,
+				20031A351566CB790015F148 /* main.m */,
+				20031A371566CB790015F148 /* TodoList2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20031A241566CB790015F148 /* TodoList2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20031A3D1566CB790015F148 /* Build configuration list for PBXNativeTarget "TodoList2" */;
+			buildPhases = (
+				20031A211566CB790015F148 /* Sources */,
+				20031A221566CB790015F148 /* Frameworks */,
+				20031A231566CB790015F148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoList2;
+			productName = TodoList2;
+			productReference = 20031A251566CB790015F148 /* TodoList2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20031A1C1566CB790015F148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NewAperio;
+			};
+			buildConfigurationList = 20031A1F1566CB790015F148 /* Build configuration list for PBXProject "TodoList2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20031A1A1566CB790015F148;
+			productRefGroup = 20031A261566CB790015F148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20031A241566CB790015F148 /* TodoList2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20031A231566CB790015F148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20031A341566CB790015F148 /* InfoPlist.strings in Resources */,
+				20031A411566CBB80015F148 /* Storyboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20031A211566CB790015F148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20031A361566CB790015F148 /* main.m in Sources */,
+				20031A3A1566CB790015F148 /* AppDelegate.m in Sources */,
+				20031A441566CEA40015F148 /* TodoListTableViewController.m in Sources */,
+				20031A471566D0CB0015F148 /* AddEditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20031A321566CB790015F148 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20031A331566CB790015F148 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20031A3B1566CB790015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20031A3C1566CB790015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20031A3E1566CB790015F148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TodoList2/TodoList2-Prefix.pch";
+				INFOPLIST_FILE = "TodoList2/TodoList2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20031A3F1566CB790015F148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TodoList2/TodoList2-Prefix.pch";
+				INFOPLIST_FILE = "TodoList2/TodoList2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20031A1F1566CB790015F148 /* Build configuration list for PBXProject "TodoList2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20031A3B1566CB790015F148 /* Debug */,
+				20031A3C1566CB790015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20031A3D1566CB790015F148 /* Build configuration list for PBXNativeTarget "TodoList2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20031A3E1566CB790015F148 /* Debug */,
+				20031A3F1566CB790015F148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20031A1C1566CB790015F148 /* Project object */;
+}

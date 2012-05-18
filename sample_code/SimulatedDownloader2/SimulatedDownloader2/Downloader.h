@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "DownloaderDelegate.h"
 
-@interface Downloader : NSObject 
+@interface Downloader : NSObject <NSURLConnectionDelegate>
 
 @property (nonatomic, assign) id<DownloaderDelegate> delegate;
 
