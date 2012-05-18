@@ -1,0 +1,7 @@
+Create a blog iPhone app.
+
+Make a model called Post that holds a title and body as string properties.
+
+The first view should have a UITableView listing the title of all of the blog entries.
+When you touch a UITableViewCell, it should push to another view that lets you edit the blog title, and content.
+There should be an add (+) button that allows you to add a new blog post.
