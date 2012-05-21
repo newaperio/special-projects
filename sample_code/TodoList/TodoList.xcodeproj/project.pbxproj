@@ -92,9 +92,9 @@
 				2003186E1564B48D0015F148 /* AddEditViewController.h */,
 				2003186F1564B48D0015F148 /* AddEditViewController.m */,
 				200318931564BD0C0015F148 /* TodoDelegate.h */,
-				200318591564B1A60015F148 /* Supporting Files */,
 				2003186B1564B3130015F148 /* TodoTableViewController.h */,
 				2003186C1564B3130015F148 /* TodoTableViewController.m */,
+				200318591564B1A60015F148 /* Supporting Files */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -281,6 +281,7 @@
 				200318681564B1A70015F148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

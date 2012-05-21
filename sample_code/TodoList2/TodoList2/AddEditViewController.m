@@ -52,6 +52,7 @@
     } else {
         //we're editing
         _todoTextField.text = _todoString;
+        _addEditButton.titleLabel.text = @"Edit Item";
         [_addEditButton setTitle:@"Edit Item" forState:UIControlStateNormal];
         self.title = @"Edit Todo";
     }
