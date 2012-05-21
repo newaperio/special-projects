@@ -1,0 +1,5 @@
+Try to finish up the RestKit Todo App:
+
+When the objects load, save them to Core Data.
+Allow deletion of objects.
+Add a button that allows a user to pull from the server.
